@@ -1,0 +1,29 @@
+/* Responsive Styles */
+
+@media screen and (max-width: 767px) {}
+
+@media screen and (max-width: 575px) {}
+
+.example-container {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: #ff009d;
+}
+
+.portfolio-side-nav {
+    background-color: #00ff62;
+}
+
+.profile-image-container {
+    width: 25%;
+    height: 25%;
+}
+
+.profile-image {
+    width: inherit;
+    height: inherit;
+    border-radius: 50%;
+}

@@ -1,0 +1,225 @@
+.sidenav-container {
+    height: 100%;
+}
+
+.sidenav {
+    width: 200px;
+}
+
+.sidenav .mat-toolbar {
+    background: inherit;
+}
+
+.mat-toolbar.mat-primary {
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+
+mat-card {
+    height: 100%;
+}
+
+.nav-jp-image {
+    width: 100%;
+    height: 100%;
+}
+
+.mat-toolbar-row {
+    height: initial;
+    padding-top: 1rem;
+}
+
+.mat-display-1,
+.mat-display-3,
+.mat-h1 {
+    margin-bottom: 1rem;
+    color: rgb(41, 41, 41);
+}
+
+.left-ul {
+    direction: ltr;
+    ;
+}
+
+.card-icon {
+    display: block;
+    text-align: center;
+    font-size: 5rem;
+}
+
+.mat-subheading-1 {
+    font-weight: bold;
+}
+
+.section-container {
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+}
+
+.mat-skill-card-center {
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.linkedin-icon {
+    width: 4.5rem;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+.nav-buttons {
+    width: 100%;
+    text-align: left;
+    height: 3rem;
+}
+
+.skill-description {
+    overflow-wrap: break-word;
+}
+
+header {
+    background-image: url(/assets/jumbotronimage1.jpg);
+    background-position: center;
+    background-attachment: fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    height: 45rem;
+    text-align: center;
+    padding-top: 5rem;
+}
+
+.profilepicture {
+    width: 20rem;
+    height: 20rem;
+    background-image: url(/assets/javsprofileimage.png);
+    border-radius: 100%;
+    background-size: cover;
+    background-position: center;
+    margin: auto;
+}
+
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    outline: none;
+}
+
+body {
+    margin: 0;
+    padding: 30px 0;
+    font-family: 'Roboto', sans-serif;
+    background: #F1F2F6;
+}
+
+h1 {
+    text-align: center;
+    font-weight: 300;
+    color: #777
+}
+
+h1 span {
+    font-weight: 600;
+}
+
+.container {
+    width: 80%;
+    padding: 50px 0;
+    margin: 50px auto;
+    position: relative;
+    overflow: hidden;
+}
+
+.container:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 50%;
+    margin-left: -1px;
+    width: 2px;
+    height: 100%;
+    background: #CCD1D9;
+    z-index: 1
+}
+
+.timeline-block {
+    width: -webkit-calc(50% + 8px);
+    width: -moz-calc(50% + 8px);
+    width: calc(50% + 8px);
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: flex;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+    -moz-box-pack: justify;
+    justify-content: space-between;
+    clear: both;
+}
+
+.timeline-block-right {
+    float: right;
+}
+
+.timeline-block-left {
+    float: left;
+    direction: rtl
+}
+
+.marker {
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    border: 2px solid #F5F7FA;
+    background: #4FC1E9;
+    margin-top: 10px;
+    z-index: 9999
+}
+
+.timeline-content {
+    width: 95%;
+    padding: 0 15px;
+    color: #666
+}
+
+.timeline-content h3 {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 25px;
+    font-weight: 500
+}
+
+.timeline-content span {
+    font-size: 15px;
+    color: #a4a4a4;
+}
+
+.timeline-content p {
+    font-size: 14px;
+    line-height: 1.5em;
+    word-spacing: 1px;
+    color: #888;
+}
+
+@media screen and (max-width: 768px) {
+    .container:before {
+        left: 8px;
+        width: 2px;
+    }
+    .timeline-block {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    .timeline-block-right {
+        float: none;
+    }
+    .timeline-block-left {
+        float: none;
+        direction: ltr;
+    }
+}
